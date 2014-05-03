@@ -1,7 +1,5 @@
 import praw, time
 from KpopClass import *
-u = 'kpoppbot'
-p = '1216809a'
 r = praw.Reddit(user_agent = '/r/KpopBot')
 r.login(username = u, password = p)
 checked = set()
